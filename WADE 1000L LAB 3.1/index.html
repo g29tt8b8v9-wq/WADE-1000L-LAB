@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto básico de HTML5</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Georgia, "Times New Roman", serif;
+      color: #1f2933;
+      background: #f4f1ea;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+    }
+
+    main {
+      width: min(100%, 720px);
+      padding: 3rem;
+      background: #ffffff;
+      border: 1px solid #d8d2c4;
+      border-radius: 8px;
+      box-shadow: 0 16px 40px rgba(31, 41, 51, 0.08);
+    }
+
+    nav ul {
+      display: flex;
+      gap: 1rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    figure {
+      margin: 1.5rem 0;
+      padding: 1rem;
+      background: #f4f1ea;
+    }
+
+    canvas {
+      display: block;
+      max-width: 100%;
+      background: #ffffff;
+      border: 1px solid #d8d2c4;
+    }
+
+    video,
+    audio,
+    progress,
+    meter {
+      max-width: 100%;
+      margin: 0.5rem 0 1rem;
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #174a5b;
+      font-size: clamp(2rem, 6vw, 3.5rem);
+    }
+
+    h2 {
+      color: #28666e;
+    }
+
+    h3 {
+      color: #68737d;
+    }
+
+    p {
+      line-height: 1.7;
+    }
+
+    footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e7e1d6;
+      color: #68737d;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p>Proyecto básico de HTML5</p>
+      <h1>Sheiliann Flores</h1>
+      <p>Número de estudiante: 2005581894</p>
+      <h2>Mi primera página web</h2>
+    </header>
+
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#contenido">Contenido</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+      </ul>
+    </nav>
+
+    <section id="contenido">
+      <h2>Introducción</h2>
+      <p>Esta página presenta una estructura básica creada con HTML5.</p>
+
+      <h3>Elementos incluidos</h3>
+      <p>Una página web puede organizar su contenido de la siguiente manera:</p>
+      <ul>
+        <li>Un encabezado principal para el título.</li>
+        <li>Subtítulos para organizar las secciones.</li>
+        <li>Párrafos para presentar información.</li>
+        <li>Enlaces para visitar otras páginas.</li>
+      </ul>
+
+      <p>Para aprender más, visita <a href="https://developer.mozilla.org/es/docs/Web/HTML">la documentación de HTML en MDN</a>.</p>
+
+      <article>
+        <h2>Artículo destacado</h2>
+        <p>HTML5 permite organizar la información de forma clara y semántica.</p>
+        <p>La actividad se actualizó el <time datetime="2026-09-14">14 de septiembre de 2026</time>.</p>
+      </article>
+
+      <figure>
+        <img id="imagenPrincipal" src="media/imagen.jpg" alt="Ejemplo de una imagen para el proyecto" width="560">
+        <figcaption>Figura 1: imagen JPG del proyecto.</figcaption>
+        <canvas id="miLienzo" width="560" height="120">
+          Tu navegador no admite el elemento canvas.
+        </canvas>
+        <figcaption>Figura 2: un dibujo creado con el elemento canvas.</figcaption>
+      </figure>
+
+      <details>
+        <summary>Ver más información</summary>
+        <p>Los elementos semánticos ayudan a describir la función de cada parte de una página.</p>
+      </details>
+    </section>
+
+    <aside id="recursos">
+      <h3>Recursos multimedia</h3>
+      <p>Estos controles muestran cómo se pueden insertar archivos multimedia:</p>
+
+      <video controls width="560">
+        <source src="media/video.mp4" type="video/mp4">
+        Tu navegador no admite el elemento video.
+      </video>
+
+      <audio controls>
+        <source src="media/audio.mp3" type="audio/mpeg">
+        Tu navegador no admite el elemento audio.
+      </audio>
+
+      <p>Progreso del curso:</p>
+      <progress value="70" max="100">70%</progress>
+
+      <p>Nivel de comprensión:</p>
+      <meter min="0" max="10" value="8">8 de 10</meter>
+    </aside>
+
+    <address>
+      Contacto: <a href="mailto:estudiante@ejemplo.com">estudiante@ejemplo.com</a>
+    </address>
+
+    <footer>
+      <p>&copy; 2026 Proyecto básico de HTML5</p>
+    </footer>
+  </main>
+
+  <script>
+    const lienzo = document.getElementById("miLienzo");
+    const contexto = lienzo.getContext("2d");
+    contexto.fillStyle = "#174a5b";
+    contexto.fillRect(24, 24, 180, 72);
+    contexto.fillStyle = "#ffffff";
+    contexto.font = "20px Georgia";
+    contexto.fillText("HTML5", 76, 68);
+  </script>
+</body>
+</html>
