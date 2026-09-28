@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Práctica de diseño responsivo con Bootstrap.">
+  <title>DataVision | Laboratorio Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">DataVision</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="inicio" class="encabezado text-white text-center">
+    <div class="container py-5">
+      <h1 class="display-4 fw-bold">Análisis de Datos y Tecnología</h1>
+      <p class="lead">Transformando información en conocimiento</p>
+      <a href="#proyectos" class="btn btn-light btn-lg mt-3">Ver proyectos</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="container py-5">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2>Acerca de este proyecto</h2>
+          <p class="lead">Esta página demuestra la integración de HTML5, CSS y Bootstrap para desarrollar una interfaz web moderna y responsiva.</p>
+          <p>El proyecto utiliza estructura semántica, selectores CSS, modelo de caja, componentes Bootstrap y diseño adaptable a diferentes tamaños de pantalla.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="seccion-gris py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Servicios</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100 shadow-sm"><div class="card-body">
+              <h3 class="card-title h4">Análisis de Datos</h3>
+              <p class="card-text">Análisis de información para identificar patrones y tendencias.</p>
+              <a href="#proyectos" class="btn btn-primary">Conocer más</a>
+            </div></article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100 shadow-sm"><div class="card-body">
+              <h3 class="card-title h4">Bases de Datos</h3>
+              <p class="card-text">Organización y consulta de datos para apoyar procesos empresariales.</p>
+              <a href="#proyectos" class="btn btn-primary">Conocer más</a>
+            </div></article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100 shadow-sm"><div class="card-body">
+              <h3 class="card-title h4">Visualización</h3>
+              <p class="card-text">Creación de reportes y visualizaciones para comunicar resultados.</p>
+              <a href="#proyectos" class="btn btn-primary">Conocer más</a>
+            </div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="container py-5">
+      <h2 class="text-center mb-5">Proyectos</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <article class="caja-proyecto">
+            <h3>Dashboard de Ventas</h3>
+            <p>Proyecto ficticio para analizar tendencias de ventas y comportamiento de productos.</p>
+            <span class="badge bg-primary">Data Analytics</span>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="caja-proyecto">
+            <h3>Análisis de Inventario</h3>
+            <p>Proyecto ficticio para identificar productos con niveles bajos de inventario.</p>
+            <span class="badge bg-success">SQL</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="container pb-5">
+      <div class="alert alert-info text-center" role="alert">Este sitio fue desarrollado utilizando HTML5, CSS y Bootstrap.</div>
+    </section>
+
+    <section id="contacto" class="seccion-gris py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mx-auto">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <form class="formulario shadow">
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+              </div>
+              <div class="mb-3">
+                <label for="correo" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com">
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">&copy; 2026 DataVision | Laboratorio de Desarrollo Web</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
