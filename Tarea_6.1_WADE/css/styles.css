@@ -1,0 +1,127 @@
+/* ==================================
+   CONFIGURACIÓN GENERAL
+================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F4FAFF;
+	color: #0A2540;
+}
+
+
+/* ==================================
+   NAVBAR
+================================== */
+
+.navbar {
+	background-color: #0A2540;
+}
+
+
+/* ==================================
+   ENCABEZADO
+================================== */
+
+#inicio {
+	background: linear-gradient(
+		135deg,
+		#0A2540,
+		#1E6FA8
+	);
+}
+
+
+/* ==================================
+   TÍTULOS
+================================== */
+
+h2 {
+	color: #123B5D;
+	font-weight: bold;
+}
+
+h3 {
+	color: #1E6FA8;
+}
+
+
+/* ==================================
+   TARJETAS
+================================== */
+
+.card {
+	border: 1px solid #A9D6F5;
+	border-radius: 15px;
+	transition: transform 0.3s ease;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+}
+
+
+/* ==================================
+   ÁREA INTERACTIVA
+================================== */
+
+.caja-interactiva {
+	background-color: #EAF6FF;
+	border: 2px solid #3B8ED0;
+	border-radius: 15px;
+	padding: 30px;
+}
+
+
+/* ==================================
+   BOTONES
+================================== */
+
+.btn-primary {
+	background-color: #1E6FA8;
+	border-color: #1E6FA8;
+}
+
+.btn-primary:hover {
+	background-color: #0A2540;
+	border-color: #0A2540;
+}
+
+
+/* ==================================
+   ALERT
+================================== */
+
+.alert-info {
+	background-color: #EAF6FF;
+	color: #0A2540;
+	border-color: #A9D6F5;
+}
+
+
+/* ==================================
+   FOOTER
+================================== */
+
+footer {
+	background-color: #0A2540;
+}
+
+
+/* ==================================
+   RESPONSIVE
+================================== */
+
+@media (max-width: 768px) {
+
+	#inicio h1 {
+		font-size: 2rem;
+	}
+
+	.caja-interactiva {
+		padding: 20px;
+	}
+}
