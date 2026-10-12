@@ -1,0 +1,27 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#071a2b"/>
+      <stop offset="100%" stop-color="#0f3d59"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg1)"/>
+  <rect x="110" y="110" width="1380" height="700" rx="34" fill="#0f263d" stroke="#88dcff" stroke-width="3"/>
+  <text x="180" y="165" fill="#edf7ff" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Performance Dashboard</text>
+  <rect x="180" y="220" width="900" height="500" rx="22" fill="#10273d" stroke="#4c9ad1" stroke-width="2"/>
+  <g opacity="0.2" stroke="#e3f1ff" stroke-width="1"><path d="M220 260 H1040 M220 330 H1040 M220 400 H1040 M220 470 H1040 M220 540 H1040 M300 220 V650 M420 220 V650 M540 220 V650 M660 220 V650 M780 220 V650 M900 220 V650"/></g>
+  <path d="M220 515 L300 480 L380 440 L470 385 L560 320 L660 260 L760 245 L860 230 L960 210" fill="none" stroke="#77d7ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#77d7ff"><circle cx="300" cy="480" r="5"/><circle cx="380" cy="440" r="5"/><circle cx="470" cy="385" r="5"/><circle cx="560" cy="320" r="5"/><circle cx="660" cy="260" r="5"/><circle cx="760" cy="245" r="5"/><circle cx="860" cy="230" r="5"/><circle cx="960" cy="210" r="5"/></g>
+
+  <rect x="1110" y="220" width="250" height="110" rx="16" fill="#143d5c" stroke="#86d5ff" stroke-width="2"/>
+  <text x="1148" y="268" fill="#dfeef8" font-size="20" font-family="Segoe UI, Arial, sans-serif">Revenue</text>
+  <text x="1148" y="315" fill="#ffffff" font-size="36" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$1.24M</text>
+
+  <rect x="1110" y="370" width="250" height="110" rx="16" fill="#143d5c" stroke="#86d5ff" stroke-width="2"/>
+  <text x="1148" y="418" fill="#dfeef8" font-size="20" font-family="Segoe UI, Arial, sans-serif">Sales</text>
+  <text x="1148" y="465" fill="#ffffff" font-size="36" font-family="Segoe UI, Arial, sans-serif" font-weight="700">+18.4%</text>
+
+  <rect x="1110" y="520" width="250" height="110" rx="16" fill="#143d5c" stroke="#86d5ff" stroke-width="2"/>
+  <text x="1148" y="568" fill="#dfeef8" font-size="20" font-family="Segoe UI, Arial, sans-serif">Retention</text>
+  <text x="1148" y="615" fill="#ffffff" font-size="36" font-family="Segoe UI, Arial, sans-serif" font-weight="700">92%</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg4" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#071b2c"/><stop offset="100%" stop-color="#12375d"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg4)"/>
+  <rect x="120" y="120" width="1360" height="680" rx="30" fill="#102538" stroke="#8ddaff" stroke-width="3"/>
+  <text x="180" y="170" fill="#ebf7ff" font-size="36" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Sales Trend Dashboard</text>
+  <rect x="190" y="210" width="830" height="440" rx="20" fill="#0d2135" stroke="#5ebfe8" stroke-width="2"/>
+  <g opacity="0.18" stroke="#ecf7ff" stroke-width="1"><path d="M220 250 H980 M220 330 H980 M220 410 H980 M220 490 H980 M220 570 H980 M300 240 V620 M420 240 V620 M540 240 V620 M660 240 V620 M780 240 V620 M900 240 V620"/></g>
+  <path d="M220 515 L330 450 L450 480 L560 370 L680 310 L800 250 L930 210" fill="none" stroke="#7ed4ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#7ed4ff"><circle cx="330" cy="450" r="5"/><circle cx="450" cy="480" r="5"/><circle cx="560" cy="370" r="5"/><circle cx="680" cy="310" r="5"/><circle cx="800" cy="250" r="5"/><circle cx="930" cy="210" r="5"/></g>
+  <rect x="1080" y="220" width="280" height="110" rx="18" fill="#123d5c" stroke="#86d5ff" stroke-width="2"/>
+  <text x="1120" y="268" fill="#dceff9" font-size="20" font-family="Segoe UI, Arial, sans-serif">Total Sales</text>
+  <text x="1120" y="305" fill="#ffffff" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$2.8M</text>
+  <rect x="1080" y="360" width="280" height="110" rx="18" fill="#123d5c" stroke="#86d5ff" stroke-width="2"/>
+  <text x="1120" y="408" fill="#dceff9" font-size="20" font-family="Segoe UI, Arial, sans-serif">Growth</text>
+  <text x="1120" y="445" fill="#ffffff" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">+21.7%</text>
+  <rect x="1080" y="500" width="280" height="110" rx="18" fill="#123d5c" stroke="#86d5ff" stroke-width="2"/>
+  <text x="1120" y="548" fill="#dceff9" font-size="20" font-family="Segoe UI, Arial, sans-serif">Top Region</text>
+  <text x="1120" y="585" fill="#ffffff" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">North</text>
+</svg>

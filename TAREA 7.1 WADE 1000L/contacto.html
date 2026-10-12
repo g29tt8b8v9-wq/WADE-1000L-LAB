@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contacto de Data Journey para conectar sobre análisis de datos, visualización y proyectos.">
+  <title>Contacto | Data Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Data Journey, inicio"><span class="brand-mark">D</span><span>DATA <span class="brand-light">JOURNEY</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú"><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <a href="sobre-mi.html">Sobre mí</a>
+        <a href="mi-experiencia.html">Experiencia</a>
+        <a href="index.html#proyectos">Proyectos</a>
+        <a href="blog.html">Blog</a>
+        <a href="herramientas.html">Herramientas</a>
+        <a class="nav-contact" href="contacto.html" aria-current="page">Contacto <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="page-header">
+      <div class="section-wrap">
+        <span>LET'S CONNECT</span>
+        <h1>Contacto</h1>
+        <p>¿Quieres hablar sobre datos, tecnología o mi trayectoria?</p>
+      </div>
+    </section>
+
+    <section class="section-wrap section-pad">
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form" novalidate>
+          <h2>Envíame un mensaje</h2>
+
+          <div class="field-group">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" id="name" class="form-control" placeholder="Tu nombre">
+            <div class="validation-message" id="nameFeedback"></div>
+          </div>
+
+          <div class="field-group">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" id="email" class="form-control" placeholder="nombre@email.com">
+            <div class="validation-message" id="emailFeedback"></div>
+          </div>
+
+          <div class="field-group">
+            <label for="subject" class="form-label">Asunto</label>
+            <input type="text" id="subject" class="form-control" placeholder="Asunto del mensaje">
+            <div class="validation-message" id="subjectFeedback"></div>
+          </div>
+
+          <div class="field-group">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea id="message" class="form-control" rows="6" placeholder="Escribe tu mensaje"></textarea>
+            <div class="validation-message" id="messageFeedback"></div>
+          </div>
+
+          <button type="submit" class="button button-dark">Enviar mensaje</button>
+
+          <div id="formSuccess" class="alert-success d-none">
+            El formulario fue validado correctamente. Este formulario es una demostración académica.
+          </div>
+        </form>
+
+        <aside class="info-panel">
+          <span class="section-label">CONTACT</span>
+          <h2>Conectemos</h2>
+          <p>Este formulario forma parte del proyecto académico Data Journey.</p>
+          <hr>
+          <div class="info-block">
+            <h3>Email</h3>
+            <p>contact@datourney.example</p>
+          </div>
+          <div class="info-block">
+            <h3>Área profesional</h3>
+            <p>Data Analytics & Reporting</p>
+          </div>
+          <div class="info-block">
+            <h3>Ubicación</h3>
+            <p>Puerto Rico</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-wrap footer-inner">
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark">D</span><span>DATA <span class="brand-light">JOURNEY</span></span></a>
+      <span>Un espacio para aprender, analizar y compartir.</span>
+      <span>© <span data-year></span> Data Journey</span>
+    </div>
+  </footer>
+</body>
+</html>

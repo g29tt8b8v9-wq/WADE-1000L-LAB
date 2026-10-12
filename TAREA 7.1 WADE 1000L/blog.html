@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Blog de Data Journey sobre SQL, visualización y aprendizaje continuo en análisis de datos.">
+  <title>Blog | Data Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Data Journey, inicio"><span class="brand-mark">D</span><span>DATA <span class="brand-light">JOURNEY</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú"><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <a href="sobre-mi.html">Sobre mí</a>
+        <a href="mi-experiencia.html">Experiencia</a>
+        <a href="index.html#proyectos">Proyectos</a>
+        <a href="blog.html" aria-current="page">Blog</a>
+        <a href="herramientas.html">Herramientas</a>
+        <a class="nav-contact" href="contacto.html">Contacto <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="page-header">
+      <div class="section-wrap">
+        <span>THE BLOG</span>
+        <h1>Aprendiendo en público</h1>
+        <p>Notas sobre datos, tecnología y mi transición profesional.</p>
+      </div>
+    </section>
+
+    <section class="section-wrap section-pad">
+      <div class="project-grid project-grid-articles">
+        <article class="project-card blog-card">
+          <div class="project-image">
+            <img src="images/sql-blog.svg" alt="Pantalla con consultas SQL y análisis">
+            <span class="image-arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="project-meta"><span>SQL • LEARNING</span><span>DATA BASES</span></div>
+          <h3>Mi experiencia aprendiendo SQL</h3>
+          <p>Cómo estoy construyendo una base sólida para consultar información, entender relaciones y trabajar con datos con mayor claridad.</p>
+          <div class="card-actions"><a class="button button-dark" href="articulo-sql.html">Leer artículo</a></div>
+        </article>
+
+        <article class="project-card blog-card">
+          <div class="project-image">
+            <img src="images/visualization-blog.svg" alt="Dashboard con visualizaciones de datos">
+            <span class="image-arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="project-meta"><span>DATA VISUALIZATION</span><span>STORYTELLING</span></div>
+          <h3>Por qué visualizar los datos importa</h3>
+          <p>Cuando una gráfica comunica mejor que una tabla, la información se vuelve más útil, más clara y más fácil de compartir.</p>
+          <div class="card-actions"><a class="button button-dark" href="articulo-visualizacion.html">Leer artículo</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-wrap footer-inner">
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark">D</span><span>DATA <span class="brand-light">JOURNEY</span></span></a>
+      <span>Aprender, analizar y compartir.</span>
+      <span>© <span data-year></span> Data Journey</span>
+    </div>
+  </footer>
+</body>
+</html>

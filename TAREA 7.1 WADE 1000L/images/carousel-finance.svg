@@ -1,0 +1,19 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg2" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#071a2b"/><stop offset="100%" stop-color="#0d3b5d"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <rect x="120" y="120" width="1360" height="680" rx="30" fill="#0c243b" stroke="#8edcff" stroke-width="3"/>
+  <text x="180" y="175" fill="#edf7ff" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Financial Growth</text>
+  <rect x="180" y="220" width="820" height="430" rx="22" fill="#0e293f" stroke="#5dbee9" stroke-width="2"/>
+  <g opacity="0.22" stroke="#eef7ff" stroke-width="1"><path d="M220 260 H985 M220 335 H985 M220 410 H985 M220 485 H985 M220 560 H985 M310 230 V620 M430 230 V620 M550 230 V620 M670 230 V620 M790 230 V620"/></g>
+  <path d="M220 515 L320 490 L420 450 L520 410 L640 320 L760 250 L900 190" fill="none" stroke="#7ae3b5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#7ae3b5"><circle cx="320" cy="490" r="5"/><circle cx="420" cy="450" r="5"/><circle cx="520" cy="410" r="5"/><circle cx="640" cy="320" r="5"/><circle cx="760" cy="250" r="5"/><circle cx="900" cy="190" r="5"/></g>
+  <rect x="1060" y="220" width="300" height="120" rx="18" fill="#143d5d" stroke="#82d4ff" stroke-width="2"/>
+  <text x="1100" y="270" fill="#dfeef8" font-size="20" font-family="Segoe UI, Arial, sans-serif">Net income</text>
+  <text x="1100" y="320" fill="#ffffff" font-size="36" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$482K</text>
+  <rect x="1060" y="380" width="300" height="120" rx="18" fill="#143d5d" stroke="#82d4ff" stroke-width="2"/>
+  <text x="1100" y="430" fill="#dfeef8" font-size="20" font-family="Segoe UI, Arial, sans-serif">Cash flow</text>
+  <text x="1100" y="480" fill="#ffffff" font-size="36" font-family="Segoe UI, Arial, sans-serif" font-weight="700">+12.4%</text>
+  <rect x="1060" y="540" width="300" height="120" rx="18" fill="#143d5d" stroke="#82d4ff" stroke-width="2"/>
+  <text x="1100" y="590" fill="#dfeef8" font-size="20" font-family="Segoe UI, Arial, sans-serif">Forecast</text>
+  <text x="1100" y="640" fill="#ffffff" font-size="36" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Healthy</text>
+</svg>
